@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        // Affiche un message de bienvenue
-        System.out.println("Hello, world!");
+        // Message modifié pour tester un conflit GitHub
+        System.out.println("Test de conflit : modification locale");
+
+        // Ajout d'un timestamp pour rendre la sortie unique
+        long now = System.currentTimeMillis();
+        System.out.println("Timestamp: " + now);
         
-        // Vous pouvez ajouter d'autres fonctionnalités ici
+        // Fin du programme
     }
 }
